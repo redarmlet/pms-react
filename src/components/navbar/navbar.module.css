@@ -1,0 +1,92 @@
+/* Navbar styles extracted from /* general */ and /* navbar usuario logueado */ 
+.header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #FFC0CB;
+}
+
+.navWrapper {
+  background-color: #FFC0CB;
+}
+
+.navLink:hover {
+  background-color: #8B4513;
+  color: #FFC0CB;
+}
+
+.logo {
+  width: 150px;
+  padding-top: 5px;
+}
+
+.navUsuario {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  padding: 0 1rem !important;
+  color: #5D4037 !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navUsuario:hover {
+  background-color: #8B4513 !important;
+  color: #ffffff !important;
+}
+
+.carritoBoton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1rem !important;
+  cursor: pointer;
+}
+
+.carritoContador {
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  background-color: #5D4037;
+  color: #ffffff;
+  font-size: .65rem;
+  font-weight: 700;
+  min-width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  z-index: 1001;
+}
+
+.dropdownItem a {
+  color: #5D4037;
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.dropdownItem a:hover {
+  background-color: #FFF5E1;
+  color: #8B4513;
+}
+
+.dropdownDivider {
+  height: 1px;
+  margin: 4px 0;
+  background-color: #e0e0e0;
+}

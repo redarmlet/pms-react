@@ -1,0 +1,82 @@
+/* Styles extracted for Blog */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+.mainSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tituloMenu {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-align: center;
+  color: #5D4037;
+  font-size: 2.5rem;
+}
+
+.lead {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #5D4037;
+  font-size: 1.1rem;
+}
+
+.badgeDestacado {
+  background-color: #ff9800 !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.badgePms {
+  background-color: #FFC0CB !important;
+  color: #5D4037 !important;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.badgeUser {
+  background-color: #FFF5E1 !important;
+  color: #5D4037 !important;
+  font-weight: bold;
+  border: 1px solid #8B4513;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.btnLeerMas {
+  background-color: #FFC0CB !important;
+  color: #5D4037 !important;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btnLeerMas:hover {
+  background-color: #5D4037 !important;
+  color: white !important;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

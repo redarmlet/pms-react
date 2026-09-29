@@ -1,0 +1,252 @@
+/* Styles extracted from /* productos */ 
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+.tituloMenu {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-align: center;
+  padding: 1.5rem;
+  color: #5D4037;
+  font-size: 2.5rem;
+}
+
+.layoutProductos {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+  padding: 0 3%;
+  align-self: stretch;
+  box-sizing: border-box;
+}
+
+.sidebarFiltros {
+  background-color: #FFC0CB;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  min-width: 220px;
+  position: sticky;
+  top: 2vh;
+  text-align: left;
+}
+
+.sidebarTitulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: #5D4037;
+}
+
+.filtrosLista {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.filtroCategoria {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  font-size: .9rem;
+  cursor: pointer;
+  color: #5D4037;
+}
+
+.filtroCategoria input[type="checkbox"] {
+  accent-color: #8B4513;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.filtroVerTodo {
+  font-weight: 700;
+  padding-bottom: .6rem;
+  margin-bottom: .6rem;
+  border-bottom: 1px solid rgba(93, 64, 55, 0.2);
+}
+
+.productosSeccion {
+  flex: 1;
+}
+
+.contenedorCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.carta {
+  width: 100%;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.contenedorImagen {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  padding: 10%;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.contenedorImagen:hover .btnAgregar {
+  opacity: 1;
+  transform: translateY(0);
+}
+.contenedorImagen:active .btnAgregar {
+  transform: scale(.9,1.1);
+  border-radius: 10rem;
+  transition: scale,border-radius 0.2s ease;
+}
+.contenedorImagen:hover .imagenProducto {
+  transform: scale(1.05);
+}
+
+.imagenProducto {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.btnAgregar {
+  opacity: 0;
+  position: absolute;
+  bottom: 1rem;
+  left: 10%;
+  width: 80%;
+  background-color: #FFC0CB;
+  color: #5D4037;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.6rem 0;
+  font-size: clamp(.7rem, 2.2vw, 0.95rem);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .3s ease;
+  transform: translateY(10px);
+}
+
+.btnAgregar:hover {
+  background-color: #5D4037;
+  color: #ffffff;
+}
+.btnAgregar:active {
+  transform: scale(.5);
+}
+.h3Producto {
+  font-size: 1rem;
+  font-weight: 700;
+  max-width: 100%;
+  text-align: center;
+  color: #5D4037;
+  margin: 0.8rem 0 0.3rem 0;
+}
+
+.precioProducto {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #8B4513;
+  margin: 0.2rem 0 0 0;
+}
+
+.sinResultados {
+  padding: 2rem;
+  color: #5D4037;
+  font-size: 1.1rem;
+}
+
+/* Modal personalizado */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modalContentBox {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.modalTitulo {
+  color: #5D4037;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.modalTextarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 80px;
+  box-sizing: border-box;
+}
+
+.modalBotones {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.modalBtnGuardar {
+  background-color: #5D4037;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modalBtnCancelar {
+  background: none;
+  border: none;
+  color: #5D4037;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .layoutProductos {
+    flex-direction: column;
+  }
+  .sidebarFiltros {
+    width: 100%;
+    position: static;
+  }
+}

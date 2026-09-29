@@ -1,0 +1,64 @@
+@import "materialize-css/dist/css/materialize.min.css";
+
+/* general */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FFF5E1;
+  background-image: url(/img/tile.webp);
+  background-repeat: repeat;
+  background-size: 25%;
+  color: #5D4037;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  color: #5D4037;
+}
+
+.h5 {
+  font-size: .8rem;
+  font-weight: 100;
+  max-width: 100%;
+}
+
+.titulo-menu {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-align: center;
+  padding: 2rem;
+}
+
+.lead {
+  font-family: 'Lato';
+  font-weight: 400;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Materialize form overrides from style.css */
+[type="checkbox"]:not(:checked) + span:not(.lever):before {
+  border: 2px solid #8B4513;
+}
+[type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid #8B4513;
+  border-bottom: 2px solid #8B4513;
+}
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #8B4513;
+  box-shadow: 0 1px 0 0 #8B4513;
+}
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #8B4513;
+}
+
+.oculto {
+  display: none !important;
+}

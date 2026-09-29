@@ -1,0 +1,34 @@
+/* Footer styles extracted from /* general */ 
+.pageFooter {
+  background-color: #FFC0CB;
+  color: #5D4037;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.footerTitle {
+  color: #5D4037;
+  font-weight: 700;
+}
+
+.footerText {
+  color: #5D4037;
+}
+
+.footerLink {
+  color: #5D4037;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  color: #8B4513;
+  text-decoration: underline;
+}
+
+.footerCopyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: #5D4037;
+  background-color: rgba(93, 64, 55, 0.08);
+}

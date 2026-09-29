@@ -1,0 +1,80 @@
+/* Common styles for Blog Articles */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+.badgeDestacado {
+  background-color: #ff9800 !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.badgePms {
+  background-color: #FFC0CB !important;
+  color: #5D4037 !important;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.badgeUser {
+  background-color: #FFF5E1 !important;
+  color: #5D4037 !important;
+  font-weight: bold;
+  border: 1px solid #8B4513;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.articuloTitulo {
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #5D4037;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #5D4037;
+  margin-top: 1rem;
+}
+
+.articuloContenido {
+  min-height: 150px;
+  line-height: 1.8;
+  color: #5D4037;
+  font-size: 1.05rem;
+}
+
+.cardAction {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btnVolver {
+  background-color: #5D4037 !important;
+  color: #ffffff !important;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btnVolver:hover {
+  background-color: #8B4513 !important;
+}

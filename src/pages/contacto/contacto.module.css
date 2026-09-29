@@ -1,0 +1,60 @@
+/* Styles for Contacto */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+.mainSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tituloMenu {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-align: center;
+  color: #5D4037;
+  font-size: 2.5rem;
+}
+
+.lead {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #5D4037;
+  font-size: 1.1rem;
+}
+
+.cardTitleBold {
+  font-weight: 700;
+  color: #5D4037;
+}
+
+.btnEnviar {
+  margin-top: 1rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  background-color: #5D4037 !important;
+  color: white !important;
+  font-weight: 700;
+  padding: 0 1.5rem;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btnEnviar:hover {
+  background-color: #8B4513 !important;
+}
+
+.collectionItemAvatar {
+  min-height: 70px !important;
+}

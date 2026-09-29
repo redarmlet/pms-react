@@ -1,0 +1,137 @@
+/* Styles extracted from /* admin */ 
+.adminContenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.authTitulo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  color: #5D4037;
+  margin-bottom: .3rem;
+  font-size: 2.2rem;
+}
+
+.authSubtitulo {
+  color: #B0BEC5;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.adminGridResumen {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.adminCardResumen {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  text-align: center;
+  color: #5D4037;
+}
+
+.adminNumero {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #8B4513;
+  margin: .3rem 0;
+}
+
+.adminSeccion {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+}
+
+.perfilCardTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5D4037;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.adminTabla {
+  width: 100%;
+  font-size: .88rem;
+  border-collapse: collapse;
+}
+
+.adminTabla th {
+  color: #5D4037;
+  font-weight: 700;
+  padding: 0.6rem;
+  border-bottom: 2px solid #FFF5E1;
+}
+
+.adminTabla td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.btnNuevo {
+  padding: 0 10px;
+  background-color: #5D4037 !important;
+  color: white !important;
+  border-radius: 4px;
+  border: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+}
+
+.btnEditar {
+  color: #8B4513;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.formularioBox {
+  background-color: #FFF5E1;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.formularioBox input,
+.formularioBox textarea {
+  background-color: white !important;
+  padding: 0.5rem 0.8rem !important;
+  border-radius: 4px !important;
+  border: 1px solid #ccc !important;
+  margin-bottom: 0.8rem !important;
+  box-sizing: border-box !important;
+}
+
+.btnGuardar {
+  background-color: #5D4037 !important;
+  color: white !important;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 0.8rem;
+}
+
+.btnCancelar {
+  background: none;
+  border: none;
+  color: #5D4037;
+  font-weight: 600;
+  cursor: pointer;
+}

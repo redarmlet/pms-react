@@ -1,0 +1,109 @@
+/* Styles extracted from /* auth general */ 
+.authContenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1rem;
+  min-height: 80vh;
+}
+
+.authCard {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 16px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.authTitulo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  color: #5D4037;
+  margin-bottom: .3rem;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.authSubtitulo {
+  color: #B0BEC5;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.authSeccionTitulo {
+  font-weight: 700;
+  color: #5D4037;
+  font-size: .9rem;
+  margin: 1.2rem 0 .5rem 0;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.authOpcional {
+  font-weight: 400;
+  color: #B0BEC5;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.authMensaje {
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.authError {
+  background-color: #fdecea;
+  color: #c62828;
+}
+
+.authExito {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.authBtn {
+  width: 100%;
+  opacity: 1;
+  height: auto;
+  padding: .9rem 0;
+  margin-top: .5rem;
+  background-color: #5D4037 !important;
+  color: white !important;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.authBtn:hover {
+  background-color: #8B4513 !important;
+}
+
+.authLinkTexto {
+  text-align: center;
+  margin-top: 1.2rem;
+  color: #5D4037;
+}
+
+.authLink {
+  color: #8B4513;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.authLink:hover {
+  text-decoration: underline;
+}
+
+.comunaSelect {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #5D4037;
+}
