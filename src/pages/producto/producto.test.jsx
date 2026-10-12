@@ -1,15 +1,16 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { describe, it, expect, vi } from 'vitest';
 import { BrowserRouter } from 'react-router-dom';
-import Producto from '../pages/producto/producto';
+import Producto from './producto';
 
-vi.mock('../context/AuthContext', () => ({
+
+vi.mock('../../context/AuthContext', () => ({
   useAuth: () => ({
     productosLista: [{ id: '1', nombre: 'Torta de Mil Hojas', precio: 10000 }]
   })
 }));
 
-vi.mock('../context/CartContext', () => ({
+vi.mock('../../context/CartContext', () => ({
   useCart: () => ({
     guardar: vi.fn()
   })
@@ -32,7 +33,6 @@ describe('PU-006: Componente Producto - handleAgregar', () => {
     );
 
     const botonAgregar = screen.getByRole('button', { name: /agregar al carro|añadir|comprar/i });
-
     fireEvent.click(botonAgregar);
 
     expect(botonAgregar).toBeInTheDocument();
