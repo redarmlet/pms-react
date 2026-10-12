@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
-import Nosotros from '../pages/nosotros/nosotros';
+import Nosotros from './nosotros';
 describe('PU-003: componente nosotros - valores de la Empresa', () => {
   it('comprueba la carga de los tres valores de la empresa', () => {
     render(<Nosotros />);
