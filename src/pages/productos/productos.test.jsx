@@ -18,8 +18,8 @@ vi.mock('../../context/CartContext', () => ({
   })
 }));
 
-describe('PU-009: Componente Productos - Filtro por categoría', () => {
-  it('Filtra la lista de productos al seleccionar una categoría', () => {
+describe('PU-009: componente productos - fitro por categoria', () => {
+  it('filtra la lista de productos al seleccionar una categoria', () => {
     render(
       <BrowserRouter>
         <Productos />
